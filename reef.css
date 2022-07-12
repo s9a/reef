@@ -1,0 +1,43 @@
+.reef ::selection {
+  background-color: powderblue;
+  color: mediumblue;
+}
+
+.reef * {
+  background-color: transparent;
+  color: inherit;
+}
+
+.reef.reef {
+  background-color: var(--reef);
+  color: var(--free);
+}
+
+.tide.tide,
+.reef ::selection {
+  color: var(--reef);
+  background-color: var(--free);
+}
+
+.clam.clam,
+.clam [class] {
+  color: transparent;
+}
+
+.brine { filter: hue-rotate(-120deg) }
+.trine { filter: hue-rotate(120deg) }
+
+.tide ::selection {
+  background-color: var(--reef);
+  color: var(--free);
+}
+
+.flap { border-color: currentColor; }
+.sponge { border-color: transparent; }
+:root { --free: #302; --reef: aqua; }
+.reef [href] { --free: aquamarine; --reef: indigo; }
+.wrasse [href] { --free: aqua; --reef: rebeccapurple; }
+.coral.coral { --free: #302; --reef: coral; }
+.dream.dream { --free: aqua; --reef: rebeccapurple; }
+.stony.stony { --free: silver; --reef: indigo; }
+.wrasse.wrasse { --free: aquamarine; --reef: indigo; }
