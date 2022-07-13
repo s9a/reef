@@ -1,8 +1,3 @@
-.reef ::selection {
-  background-color: powderblue;
-  color: mediumblue;
-}
-
 .reef * {
   background-color: transparent;
   color: inherit;
@@ -13,10 +8,19 @@
   color: var(--free);
 }
 
-.tide.tide,
-.reef ::selection {
+.tide.tide {
   color: var(--reef);
   background-color: var(--free);
+}
+
+.reef ::selection {
+  background-color: violet;
+  color: midnightblue;
+}
+
+.tide ::selection {
+  background-color: powderblue;
+  color: mediumblue;
 }
 
 .clam.clam,
@@ -26,11 +30,6 @@
 
 .brine { filter: hue-rotate(-120deg) }
 .trine { filter: hue-rotate(120deg) }
-
-.tide ::selection {
-  background-color: var(--reef);
-  color: var(--free);
-}
 
 .flap { border-color: currentColor; }
 .sponge { border-color: transparent; }
