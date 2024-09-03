@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="reef dream">
+<html lang="en" class="reef wrasse">
 <meta charset="utf-8">
 
 <title>reef 🫧 opensource coral reef color theme</title>
@@ -15,16 +15,33 @@
 </style>
 
 <style media=(color)>
+  :focus { 
+    outline: thick dotted;
+    box-shadow: 0 0 1ch 1ch deepskyblue;
+  }
+  :any-link:hover {
+    text-decoration-style: double; 
+  }
   html {
     background-color: sandybrown;
     transition: background-color 33ms;
   }
+  h3 { all: unset }
+  nav * { display: table }
+  a { padding: .5ch; }
+  h1 a:first-child { text-decoration-style: wavy }
+  h1 a:last-child { text-decoration-style: dotted }
+  [href*="github"] { text-decoration-style: dashed }
 </style>
 
 <link rel="stylesheet" href="reef.css" media=(color)>
+<link rel="help" href="https://s9a.page/porpoise">
+<link rel="next" href="https://s9a.page/oracle">
+<link rel="prev" href="https://s9a.page/sea">
 
 <h1>
-  <a href="#">reef</a> 🫧
+  <a class="reef coral trine" href="">reef</a>
+  <a class="reef coral brine" href="https://s9a.page">🫧</a>
 </h1>
 
 <ul class="undertow clam">
@@ -42,14 +59,22 @@
 </ul>
 
 <ul class="undertow">
-  <li><code class="reef wrasse"><b>reef wrasse</b></code>
+  <li><code class="reef wrasse">reef wrasse</code>
   <li><code class="reef wrasse brine">reef wrasse brine</code>
   <li><code class="reef wrasse trine">reef wrasse trine</code>
-  <li><code class="reef dream"><b>dream reef</b></code>
-  <li><code class="reef dream brine">reef dream brine</code>
-  <li><code class="reef dream trine">reef dream trine</code>
-  <li><code class="reef coral"><b>coral</b> reef</code>
+  <li><code class="reef dream">dream reef</code>
+  <li><code class="reef dream brine">dream reef brine</code>
+  <li><code class="reef dream trine">dream reef trine</code>
+  <li><code class="reef coral">coral reef</code>
   <li><code class="reef coral brine">coral reef brine</code>
   <li><code class="reef coral trine">coral reef trine</code>
   <li><code class="reef clam">reef clam</code>
 </ul>
+
+<nav>
+  <h3><a class="reef coral trine" href="https://s9a.page/jellyfish">sustain</a></h3>
+  <a class="reef dream" href="https://s9a.page/sea">sea</a>
+  <a class="reef coral" href="https://porpoise.page">porpoise</a>
+  <a class="reef coral brine" href="https://octopus.boo">octopus</a>
+  <a class="tide dream" href="https://github.com/s9a/reef">github</a>
+</nav>
